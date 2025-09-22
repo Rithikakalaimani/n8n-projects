@@ -1,31 +1,24 @@
-Job Application Tracker Automation
-This project automates the tracking of job application emails, parses structured information using a language model, stores it in Google Sheets, and automatically deletes old applications with no response after a month.
+# Job Application Tracker Automation  
 
-Features
-Gmail Trigger:
-Automatically fetches emails related to job applications using a strong search query.
+This project automates the tracking of job application emails, parses structured information using a language model, stores it in Google Sheets, and automatically deletes old applications with no response after a month.  
 
-Email Parsing with LLM:
-Uses Gemini Flash 2.5 to extract structured details:
-    • Company name
-    • Job title
-    • Application status (Applied, Pending, Rejected, Interview, Offer, Announcement)
-    • Application date
-    • Platform (LinkedIn, Naukri, Indeed, Referral, Company Careers Page, etc.)
-    • Additional notes (stipend, location, deadline, interview details)
+## Features  
 
-Google Sheets Integration:
-Stores parsed job application data.
+- **Gmail Trigger**: Automatically fetches emails related to job applications using a strong search query.  
+- **Email Parsing with LLM**: Uses Gemini Flash 2.5 to extract structured details:  
+  - Company name  
+  - Job title  
+  - Application status (Applied, Pending, Rejected, Interview, Offer, Announcement)  
+  - Application date  
+  - Platform (LinkedIn, Naukri, Indeed, Referral, Company Careers Page, etc.)  
+  - Additional notes (stipend, location, deadline, interview details)  
+- **Google Sheets Integration**: Stores parsed job application data.  
+- **Automatic Cleanup**: Deletes rows older than 2 months with no response.  
+- **Daily Schedule**: Workflow runs automatically every day using n8n Cron node.  
 
-Automatic Cleanup:
-Deletes rows older than 2 months with no response.
+## Example Parsed Output  
 
-Daily Schedule:
-Workflow runs automatically every day using n8n Cron node.
-
-Example Output
-json
-Copy code
+```json
 {
   "company": "IDFC",
   "jobTitle": "Application Engineer",
@@ -35,4 +28,5 @@ Copy code
   "additionalNotes": "Successfully completed pre-screening, next steps pending",
   "threadId": "1996d1cae302a318"
 }
+
 
