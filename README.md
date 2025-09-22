@@ -16,6 +16,7 @@ This project automates the tracking of job application emails, parses structured
 - **Automatic Cleanup**: Deletes rows older than 2 months with no response.  
 - **Daily Schedule**: Workflow runs automatically every day using n8n Cron node.
 
+<img width="1912" height="885" alt="Screenshot 2025-09-22 at 4 20 21 PM" src="https://github.com/user-attachments/assets/f7d49b5c-6231-4620-83b3-2f228087eb37" />
 
 
 ## Example Parsed Output  
