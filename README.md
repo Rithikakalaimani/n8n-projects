@@ -18,7 +18,7 @@ This project automates the tracking of job application emails, parses structured
 
   ## Screenshots  
 
-![Job Tracker Screenshot](https://github.com/Rithikakalaimani/n8n-projects/assets/1234567/abcdef.png)
+![image](https://github.com/Rithikakalaimani/n8n-projects/assets/1234567/abcdef.png)
 
 
 ## Example Parsed Output  
