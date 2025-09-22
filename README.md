@@ -14,7 +14,12 @@ This project automates the tracking of job application emails, parses structured
   - Additional notes (stipend, location, deadline, interview details)  
 - **Google Sheets Integration**: Stores parsed job application data.  
 - **Automatic Cleanup**: Deletes rows older than 2 months with no response.  
-- **Daily Schedule**: Workflow runs automatically every day using n8n Cron node.  
+- **Daily Schedule**: Workflow runs automatically every day using n8n Cron node.
+
+  ## Screenshots  
+
+![Job Tracker Screenshot](https://github.com/Rithikakalaimani/n8n-projects/assets/1234567/abcdef.png)
+
 
 ## Example Parsed Output  
 
